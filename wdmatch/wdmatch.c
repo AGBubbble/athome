@@ -29,13 +29,13 @@ void	wdmatch(char *s1, char *s2)
 		if (s2[j] == s1[i])
 		{
 			i++;
-			j = 0;
 		}
 		else
 			j++;
 		if (s2[j] == '\0')
 		{
 			ft_putchar('\n');
+			break;
 		}
 		if (s1[i] == '\0')
 		{
